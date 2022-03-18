@@ -1,23 +1,31 @@
 <!Doctype html>
 <html>
 <head>
-    <title>Registration</title>
+    <title>Login</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <div>  
-       <header><h3>Login</h3></header> 
+    <div id="login-box">  
+       <header id="login-headline"><h3>Login</h3></header> 
     <form id="login">
        
         <label for="email">Email</label><br/>
-        <input type="email" id = "email" name = "email"><br/><br/>
+        <input type="email" id = "email" name = "email" placeholder="example@example.com"><br/><br/>
         <label for = "pass">Password</label><br/>
-        <input type="password" id = "pass" name="pass">
+        <input type="password" id = "pass" name="pass" placeholder="Enter Password">
 
 <br/><br/>
+<div id="button">
         <button>Let's Go</button>
+    </div> 
     </form>
+    <br>
+    <div id="create-account">
+        <a href="Registration.html">
+        <spna>Create New Account?</spna>
+    </a>
+    </div>
 </div>
 
 </body>

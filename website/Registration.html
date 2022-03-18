@@ -1,13 +1,13 @@
 <!Doctype html>
 <html>
 <head>
-    <title>Registrations</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <div>  
-       <header><h3>Create New Account</h3></header> 
+    <div id="form-box">  
+       <header id="reg-headline"><h3>Create New Account</h3></header> 
     <form id="registration">
        <label for="fname">First Name</label><br/>
         <input type="text" id = "fname" name ="fname"><br/><br/>
@@ -19,8 +19,14 @@
         <input type="password" id = "pass" name="pass">
 
 <br/><br/>
-        <button>Let's Go</button>
+       <div id="button"><button>Let's Go</button></div>
     </form>
+    <br>
+    <div id="have-account">
+       <a href="login.html">
+        <span>Do you have an Account?</span>
+    </a>
+    </div>
 </div>
 
 </body>
